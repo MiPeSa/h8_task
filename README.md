@@ -23,7 +23,7 @@
 ![Add file: linode](linode1.PNG)
 
 - Valitsin:
-  - Type: ``A Record``, 
+  - Type: ``A Record``
   - Host: ``@``(ei tarvitse mitään eteen, pelkkä miikkasaukkonen.com riittää, että yhdistää virtuaalipalvelimeen.)
   - Value: ``IP_osoite`` Virtuaalipalvleimeni ip-sosoite
   - TTL: ``5 min``
@@ -33,7 +33,7 @@
 
 ![Add file: Domain](editing-domain.PNG)
 
-- Testasin komentokehotteesta komennoilla ``$ curl 'miikkasaukkonen.com'`` ja ``$ curl 'www.miikkasaukkonen.com', että mitä uudet tietueet vastaavat:
+- Testasin komentokehotteesta komennoilla ``$ curl 'miikkasaukkonen.com'`` ja ``$ curl 'www.miikkasaukkonen.com'``, että mitä uudet tietueet vastaavat:
 
 ![Add file: Curl domain](curl-domain2.png)
 
