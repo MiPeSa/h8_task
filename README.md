@@ -1,8 +1,5 @@
 # h8 Tehtävä
 
-    a) Vuokraa domainnimi ja aseta se osoittamaan virtuaalipalvelimeesi.*
-    b) Tutki oman nimesi tietoja 'host' ja 'dig' -komennoilla. Analysoi tulokset.
-
 ## Kone
   - MacBook Air(2015)
   - Intel i5 1,6 GHz Dual-Core prossu
@@ -63,4 +60,6 @@
 - ``ANSWER SECTION`` vastaa pyyntöön tarjoamalla pavelimen IP-osoitteen.
 - Vastauksen loppuosa sisältää pyyntöön liittyvää dataa, esimerkiksi serverin osoite, pyynnön aikaleima sekä viestin koko.
 
-  
+ ## Lähteet
+ 
+ Karvinen Tero 2023, Luettavissa: https://terokarvinen.com/2023/linux-palvelimet-2023-alkukevat/#h8-say-my-name
