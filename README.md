@@ -25,7 +25,7 @@
 - Valitsin:
   - Type: ``A Record``
   - Host: ``@``(ei tarvitse mitään eteen, pelkkä miikkasaukkonen.com riittää, että yhdistää virtuaalipalvelimeen.)
-  - Value: ``IP_osoite`` Virtuaalipalvleimeni ip-sosoite
+  - Value: ``IP_osoite`` Virtuaalipalvelimeni ip-sosoite
   - TTL: ``5 min``
   - ``Save`` Tallensin uudelle tietueelle valitsemani asetukset.
  
