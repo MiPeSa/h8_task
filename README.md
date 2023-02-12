@@ -49,10 +49,18 @@
 
 ## b) 
 
+- Host komennot tarjosivat domainin IP-osoitteen, joka oli virtuaalipalvelimeni IP-osoite. ``host miikkasaukkonen.com`` myös tarjosi tiedon palvelijasta, joka hoitaa emailit kyseiselle domainille.
+
 ![Add file: Host](host1.png)
 
 ![Add file: Host](host2.png)
 
+- ``$ dig miikkasaukkonen.com`` komento lähettää pyynnön palvelimelle. Komento antoi seuraavan vastauksen:
+
 ![Add file: Dig](dig1.png)
+
+- ``QUESTION SECTION`` kertoo pyynnön tyypin. ``A`` tarkoittaa IP-osoitetta. Eli dig komento tekee pyynnön palvelimelle sen osoitteesta. 
+- ``ANSWER SECTION`` vastaa pyyntöön tarjoamalla pavelimen IP-osoitteen.
+- Vastauksen loppuosa sisältää pyyntöön liittyvää dataa, esimerkiksi serverin osoite, pyynnön aikaleima sekä viestin koko.
 
   
